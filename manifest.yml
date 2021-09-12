@@ -1,0 +1,13 @@
+modules:
+  jira:projectPage:
+    - key: bugdemo-hello-world-project-page
+      function: main
+      title: BugDemo
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/43fb9dd7-4d5c-471c-872c-4bcb029f15cf
+permissions:
+  scopes:
+    - write:jira-work
