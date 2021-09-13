@@ -48,7 +48,7 @@ const App = () => {
         
           const json = await response.json();
 
-            setResponse(JSON.stringify(json));
+           setResponse(JSON.stringify(json));
       };
 
     return (
