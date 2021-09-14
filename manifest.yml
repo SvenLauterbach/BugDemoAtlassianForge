@@ -11,3 +11,4 @@ app:
 permissions:
   scopes:
     - write:jira-work
+    - read:jira-work
